@@ -41,7 +41,7 @@ ai-product-review-analyzer/
 │   ├── analysis.png          # Sentiment analysis summary
 │   └── reviews_table.png     # Classified reviews table
 │
-└── data/                     # Optional data folder
+└── data/                     # sample csv review folder
 ```
 
 
