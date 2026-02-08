@@ -28,3 +28,13 @@ An AI-powered web application that analyzes genuine customer reviews from produc
 ## How to Run
 ```bash
 streamlit run app.py
+## Screenshots
+
+### Home Screen
+![Home](screenshots/home.png)
+
+### Analysis Summary
+![Analysis](screenshots/analysis.png)
+
+### Classified Reviews
+![Table](screenshots/table_view.png)
