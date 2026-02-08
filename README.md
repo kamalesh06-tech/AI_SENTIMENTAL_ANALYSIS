@@ -16,6 +16,7 @@ An AI-powered web application that analyzes genuine customer reviews from produc
 - Displays results in a clean table format
 - Provides a product score (out of 10) and buy/not-buy recommendation
 - Built with Python and Streamlit
+- Here app.py , sentiment_analysis.py,requirement.txt are core files
 
 ## Tech Stack
 - Python
@@ -24,6 +25,22 @@ An AI-powered web application that analyzes genuine customer reviews from produc
 - DistilBERT
 - Pandas
 - BeautifulSoup
+
+- Ai-product-review-analyzer/
+│
+├── app.py                    # Main Streamlit application (UI + logic)
+├── sentiment_analysis.py     # Core sentiment analysis logic (standalone script)
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT License
+│
+├── screenshots/              # Project UI screenshots
+│   ├── home.png              # Home screen (URL / CSV input)
+│   ├── analysis.png          # Sentiment analysis summary
+│   └── reviews_table.png     # Classified reviews table
+│
+└── data/                     # Sample csv file data 
+
 
 ## How to Run
 ```bash
