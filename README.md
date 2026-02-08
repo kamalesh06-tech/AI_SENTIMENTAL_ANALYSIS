@@ -27,19 +27,23 @@ An AI-powered web application that analyzes genuine customer reviews from produc
 - BeautifulSoup
 
 - Ai-product-review-analyzer/
+```text
+ai-product-review-analyzer/
 │
 ├── app.py                    # Main Streamlit application (UI + logic)
-├── sentiment_analysis.py     # Core sentiment analysis logic (standalone script)
+├── sentiment_analysis.py     # Core sentiment analysis logic
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation
 ├── LICENSE                   # MIT License
 │
 ├── screenshots/              # Project UI screenshots
-│   ├── home.png              # Home screen (URL / CSV input)
+│   ├── home.png              # Home screen
 │   ├── analysis.png          # Sentiment analysis summary
 │   └── reviews_table.png     # Classified reviews table
 │
-└── data/                     # Sample csv file data 
+└── data/                     # Optional data folder
+```
+
 
 
 ## How to Run
